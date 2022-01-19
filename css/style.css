@@ -323,68 +323,48 @@ body {
   margin-left: 30px;
 }
 
+#fh5co-hero {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
 @media screen and (max-width: 480px) {
   #fh5co-hero {
     height: 450px;
   }
 }
-
-@media screen {
-	#fh5co-hero {
-	  background-color: transparent;
-	  background-size: cover;
-	  background-attachment: fixed;
-	  background-repeat: no-repeat;
-	  position: relative;
-	  width: 100%;
-	}
-
-
-	#fh5co-hero .fh5co-overlay {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-	  bottom: 0;
-	  background: #2a2d36;
-	  opacity: .54;
-	  z-index: 9;
-	}
-	#fh5co-hero .fh5co-intro {
-	  display: table;
-	  width: 100%;
-	  z-index: 10;
-	  position: relative;
-	}
-	
-	#fh5co-hero .fh5co-intro > div {
-	  vertical-align: middle;
-	  display: table-cell;
-	}
-	#fh5co-hero .fh5co-intro > div .fh5co-left-position {
-	  width: 65%;
-	  float: left;
-	}
-	
-	#fh5co-hero .fh5co-intro > div .fh5co-right-position {
-	  width: 65%;
-	  float: right;
-	  text-align: right;
-	}
-	#fh5co-hero .fh5co-intro > div h2 {
-	  font-size: 70px;
-	  line-height: 87px;
-	  font-weight: 100;
-	  color: white;
-	}
+#fh5co-hero .fh5co-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2a2d36;
+  opacity: .54;
+  z-index: 9;
 }
-
+#fh5co-hero .fh5co-intro {
+  display: table;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
 @media screen and (max-width: 480px) {
   #fh5co-hero .fh5co-intro {
     height: 450px;
   }
 }
-
+#fh5co-hero .fh5co-intro > div {
+  vertical-align: middle;
+  display: table-cell;
+}
+#fh5co-hero .fh5co-intro > div .fh5co-left-position {
+  width: 65%;
+  float: left;
+}
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div .fh5co-left-position {
     width: 100%;
@@ -401,13 +381,23 @@ body {
     text-align: center;
   }
 }
+#fh5co-hero .fh5co-intro > div .fh5co-right-position {
+  width: 65%;
+  float: right;
+  text-align: right;
+}
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div .fh5co-right-position {
     width: 100%;
     text-align: left;
   }
 }
-
+#fh5co-hero .fh5co-intro > div h2 {
+  font-size: 70px;
+  line-height: 87px;
+  font-weight: 100;
+  color: white;
+}
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro > div h2 {
     font-size: 40px;
